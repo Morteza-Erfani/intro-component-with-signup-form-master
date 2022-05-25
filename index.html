@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/my-project/style/style.css" />
+    <link
+      rel="shortcut icon"
+      href="/images/favicon-32x32.png"
+      type="image/png"
+      size="32*32"
+    />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <section class="left">
+      <h1>Learn to code by watching others</h1>
+      <p class="left-para">
+        See how experienced developers solve problems in real-time. Watching
+        scripted tutorials is great, but understanding how developers think is
+        invaluable.
+      </p>
+    </section>
+
+    <section class="right">
+      <div class="top">
+        <p class="try-free">
+          <b>Try it free 7 days</b> then $20/mo. thereafter
+        </p>
+      </div>
+
+      <div class="form">
+        <form action="#" id="form" name="form" novalidate>
+          <input type="text" placeholder="First Name" id="first-name" />
+          <i id="first-name-error">First name cannot be empty</i>
+          <input type="text" placeholder="Last Name" id="last-name" />
+          <i id="last-name-error">Last name cannot be empty</i>
+          <input type="email" placeholder="Email Address" id="email" />
+          <i id="email-error">email cannot be empty</i>
+          <i id="invalid-email">Looks like this is not an email</i>
+          <input type="password" placeholder="Password" id="password" />
+          <i id="password-error">Password cannot be empty</i>
+          <button type="submit">claim your free trial</button>
+        </form>
+        <p class="terms">
+          By clicking the button, you are agreeing to our
+          <span>Terms and Services</span>
+        </p>
+      </div>
+    </section>
+  </body>
+  <script src="/my-project/js/main.js"></script>
+</html>
